@@ -7,3 +7,11 @@ We employ various classification models such as Decision Tree (DT) Classifier, K
 
 
 Among the four models implemented, evaluating the classification report and analysing the best performing model using cross-validation, we conclude that the Random Forest model performed efficiently well and was less time consuming while predicting results. Although the f1-score and average test accuracy of the SVM algorithm was slightly better than that of RFC, the time consumed by SVM to predict the test results were a lot more than that taken by the RFC. In addition to this, the precision values of RFC are higher than SVM precision values and for problems involving multiple classes and sentiment analysis based on online data, RFC works better than the SVM.
+
+After performing Sentiment Analysis we concluded the following:
+
+1) We achieved a 75% accuracy and higher values of precision (Negative review – 62%, Neutral review – 47%, Positive review – 76%) for RFC compared to the other classifier algorithms.
+
+2) Using the prediction results of RFC we checked for the most successful company that is capable of providing ROI.
+
+3) Critically evaluating the test reviews for applications relevant to AAD_1 and AAD_2, we notice that the data provided for AAD_1 is not enough and hence we need more data on its corresponding application reviews to confirm which of the two companies are more successful. Since we do not have the required data for AAD_1 at hand, we conclude that AAD_2 is more successful.
